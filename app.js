@@ -32,7 +32,7 @@ var server = app.listen(3000,function() {
 app.locals.pretty = true;
 
 
-
+ 
 
 
 /////리뷰관련/////
@@ -109,7 +109,7 @@ app.get('/del-reivew', function(req, res) {
   Review.remove({ _id: "5a20099b5a3b177038bba087" }, function(err, output){
         if(err) return res.status(500).json({ error: "database failure" });
         res.status(204).end();
-      console.log("ok");
+      console.log("ok!");
     })
 });
 
