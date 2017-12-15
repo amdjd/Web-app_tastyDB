@@ -7,10 +7,7 @@ var usertestSchema = new Schema({
     type: String,
     unique: true
     },
-    email:{
-    type: String,
-    unique: true
-    },
+    email:String,
     password:String,
     name:String
 });

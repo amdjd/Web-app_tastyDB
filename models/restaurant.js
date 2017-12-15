@@ -10,8 +10,8 @@ var restaurantSchema = new Schema({
     latiude:Number,
     longitude:Number,
     businesshours:String,
-    menu:String
-
+    menu:String,
+    review:Number
 });
 
 module.exports=mongoose.model('restaurant',restaurantSchema);
